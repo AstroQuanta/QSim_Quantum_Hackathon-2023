@@ -1,4 +1,3 @@
-
 # Optimizing Quantum Algorithms: Paving the Way for Remarkable Results
 
 Better algorithm is always the requirement in the world of computer science and computational physics. Building up a better algorithm with better time complexity and space complexity is of real importance for studies of the physical phenomena. 
@@ -21,15 +20,15 @@ Grover’s quantum searching algorithm. Similar to quantum searching, the amplit
 The first stage of the algorithm is to make good or bad measurements on the quantum state Q^mk|Ψi> for a chosen set of {mk}. Let Nk be the number of measurements (shots) and hk
 be the number of measuring good states for the state Qmk |Ψi; then, because the probability measuring the good state is sin^2 ((2mk +1)θa), the likelihood function representing this probabilistic event is given by:
 
-      Lk(hk;θa) = [sin2((2mk +1)θa)]^hk[cos2((2mk +1)θa)]^Nk−hk
+                                                Lk(hk;θa) = [sin2((2mk +1)θa)]^hk[cos2((2mk +1)θa)]^Nk−hk
 
 The second stage of the algorithm is to combine the likelihood functions Lk(hk;θa)for several {m0,...,mM} to construct a single likelihood function L(h;θa):
 
-                    L(h;θa) =  ∏ Lk(hk;θa) {k=[0,M]}
+                                                            L(h;θa) =  ∏ Lk(hk;θa) {k=[0,M]}
 
 where h = (h0,h1,··· ,hM). The ML estimate is defined as the value that maximizes L(h;θa):
 
-                θˆa = arg max(L(h;θa)) = arg max(lnL(h;θa))
+                                                          θˆa = arg max(L(h;θa)) = arg max(lnL(h;θa))
     
 This algorithm has two caveats: 
 
