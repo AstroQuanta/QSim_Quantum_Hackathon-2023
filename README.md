@@ -1,4 +1,4 @@
-# Upgrading the Quantum Algorithms: Paving the Way for Remarkable Results
+# Upgrading the Quantum Algorithm: Paving the Way for Remarkable Results
 
 Better algorithm is always the requirement in the world of computer science and computational physics. Building up a better algorithm with better time complexity and space complexity is of real importance for studies of the physical phenomena. 
 
